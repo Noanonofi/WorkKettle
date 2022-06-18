@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WorkKettle.cpp" />
+    <ClCompile Include="InterfaseKettle.cpp" />
+    <ClCompile Include="Kettle.cpp" />
+    <ClCompile Include="TemperatureController.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InterfaseKettle.h" />
+    <ClInclude Include="Kettle.h" />
+    <ClInclude Include="TemperatureController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
