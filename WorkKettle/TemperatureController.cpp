@@ -25,8 +25,3 @@ bool TemperatureController::checkTemperature(uint32_t& temperature)
 		return false;
 	}
 }
-
-void TemperatureController::printTemperature()
-{
-	std::cout << this->temperature;
-}

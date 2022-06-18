@@ -8,7 +8,6 @@ class TemperatureController
 {
 public:
 	bool checkTemperature(uint32_t& temperature);
-	void printTemperature();
 private:
 	unsigned int temperature;
 };
